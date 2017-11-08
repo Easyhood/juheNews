@@ -65,6 +65,7 @@ public class HomeButton extends View {
         super.onDraw(canvas);
         height = getHeight();
         width = getWidth();
+
         point1 = new PointF(0, height / 2);
         point2 = new PointF(width / 2, 0);
         point3 = new PointF(width, height / 2);
